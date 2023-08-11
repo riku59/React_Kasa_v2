@@ -1,0 +1,55 @@
+.logement {
+  .Description {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: $red;
+
+    h2 {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+    .nameLocation {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 150px;
+      p {
+        color: $red;
+
+        width: 50%;
+      }
+      img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50px;
+      }
+    }
+  }
+  .tagsStar {
+    display: flex;
+    max-width: 1240px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .buttonLogement {
+    display: grid;
+    max-width: 1240px;
+    margin: 20px auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    .buttonDisplay {
+      min-width: 100%;
+      max-width: 100%;
+      padding: 0;
+      p {
+        width: 100%;
+      }
+      .display {
+        width: 100%;
+      }
+    }
+  }
+}

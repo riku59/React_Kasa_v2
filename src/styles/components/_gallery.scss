@@ -1,0 +1,15 @@
+.gallery {
+  background: #f6f6f6;
+  max-width: 1240px;
+  margin: 0 auto;
+
+  padding: 50px 0;
+  border-radius: 25px;
+  ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    gap: 50px 0px;
+    justify-items: center;
+  }
+}

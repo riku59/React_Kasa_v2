@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "montserrat";
+  src: url("../../src/font/Montserrat-Medium.ttf");
+}
+
+$montserrat: "montserrat", sans-serif;
+
+$red: #ff6060;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: $montserrat;
+}
+li {
+  list-style: none;
+}

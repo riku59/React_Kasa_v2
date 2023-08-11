@@ -1,0 +1,44 @@
+.buttonDisplay {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.display {
+  width: 1050px;
+  height: 52px;
+  display: flex;
+  margin: 0px auto;
+  background: $red;
+  border-radius: 15px;
+  color: white;
+  align-items: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border: none;
+  justify-content: space-between;
+  padding: 0 10px;
+  .rotateIcone {
+    transform: rotate(180deg);
+    transition: transform 0.7s ease;
+  }
+}
+.textContainer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease, opacity 1s ease;
+}
+
+.showText {
+  max-height: 1000px;
+  opacity: 1;
+}
+
+.textDisplay {
+  background: rgb(246, 246, 246);
+  color: $red;
+  width: 1050px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 18px;
+}

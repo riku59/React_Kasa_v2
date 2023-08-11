@@ -1,0 +1,46 @@
+.slide {
+  position: relative;
+  max-width: 1240px;
+  margin: 30px auto 50px;
+  height: 415px;
+  .picture {
+    height: 415px;
+    width: 100%;
+  }
+  .arrow {
+    position: absolute;
+
+    transform: translateY(-50%);
+    height: 120px;
+    width: 70px;
+  }
+  .arrow-next {
+    right: 30px;
+    top: 50%;
+  }
+  .arrow-back {
+    left: 30px;
+    top: 50%;
+  }
+
+  .slide-number {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    color: white;
+    font-size: 18px;
+  }
+  button {
+    cursor: pointer;
+    font-size: 30px;
+    color: black;
+    transition: all 0.3s ease;
+    text-indent: -999em;
+    height: 40px;
+    width: 40px;
+
+    &:hover {
+      color: $red;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.card {
+  width: 340px;
+  height: 340px;
+  border-radius: 15px;
+  box-shadow: inset 0px -100px 40px rgb(0 0 0 / 51%);
+  text-decoration: none;
+
+  .title {
+    color: white;
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+}

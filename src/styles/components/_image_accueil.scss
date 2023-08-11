@@ -1,0 +1,18 @@
+.image_accueil {
+  height: 223px;
+  background: url("../../../public/images/image-accueil.png") center/cover;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+
+  max-width: 1240px;
+  margin: 0 auto 43px;
+  h2 {
+    color: white;
+    // filter: brightness(100%);
+  }
+}
