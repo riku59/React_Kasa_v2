@@ -29,8 +29,8 @@ const Location = () => {
       <Carousel />
       <DescriptionLogement />
       <div className="tagsStar">
-        <TagsLogements />
-        <Star />
+        <TagsLogements tags={logement.tags} />
+        <Star rating={logement.rating} />
       </div>
       <div className="buttonLogement">
         <ButtonDisplayText texte="Description" description={description} />

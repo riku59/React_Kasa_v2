@@ -6,6 +6,7 @@ const DescriptionLogement = () => {
   const { id } = useParams();
   console.log("id", id);
   const logement = logements.find((item) => item.id === id);
+  const [firstName, lastName] = logement.host.name.split(" ");
   console.log("logement", logement);
   return (
     <div className="Description">
@@ -15,7 +16,9 @@ const DescriptionLogement = () => {
       </div>
       <div>
         <div className="nameLocation">
-          <p>{logement.host.name}</p>
+          <p>
+            {firstName} <br /> {lastName}
+          </p>
           <img src={logement.host.picture} alt="" />
         </div>
       </div>
