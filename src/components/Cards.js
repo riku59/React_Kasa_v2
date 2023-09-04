@@ -14,9 +14,6 @@ const Cards = ({ location, index, onClick }) => {
         <h3>{location.title}</h3>
       </div>
     </Link>
-
-    // Utiliser la balise link
-    // rechercher url dynamique react router
   );
 };
 

@@ -15,13 +15,12 @@ const Location = () => {
   if (!logement) {
     return <Navigate to="/error" />;
   }
-  console.log(logement);
+
   const description = logement.description;
   const equipments = logement.equipments;
   const equipmentsList = equipments.map((equipement, index) => (
     <li key={index}>{equipement}</li>
   ));
-  console.log(equipmentsList);
 
   return (
     <div className="logement">
