@@ -6,7 +6,7 @@ import ButtonDisplayText from "../components/ButtonDisplayText";
 
 const About = () => {
   return (
-    <div>
+    <div className="about">
       <Navigation />
       <BannerAPropos />
       <ButtonDisplayText

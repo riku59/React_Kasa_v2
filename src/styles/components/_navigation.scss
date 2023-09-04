@@ -42,3 +42,25 @@
     }
   }
 }
+@media (max-width: 1300px) {
+  .navigation {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 750px) {
+  img {
+    width: 145px;
+  }
+  .navigation {
+    margin-left: 20px;
+    margin-right: 20px;
+    ul {
+      gap: 30px;
+    }
+  }
+  li {
+    font-size: 11px;
+    text-transform: uppercase;
+  }
+}

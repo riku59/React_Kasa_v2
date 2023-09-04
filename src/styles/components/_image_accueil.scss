@@ -16,3 +16,22 @@
     // filter: brightness(100%);
   }
 }
+
+@media (max-width: 1300px) {
+  .image_accueil {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 750px) {
+  .image_accueil {
+    height: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    h2 {
+      font-size: 24px;
+      padding: 0 20px;
+    }
+  }
+}

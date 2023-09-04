@@ -13,3 +13,20 @@
     justify-items: center;
   }
 }
+@media (max-width: 1100px) {
+  .gallery {
+    ul {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
+@media (max-width: 750px) {
+  .gallery {
+    background: white;
+    padding: 0;
+    ul {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+  }
+}

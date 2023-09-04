@@ -5,3 +5,17 @@
   margin: 0 auto 43px;
   border-radius: 25px;
 }
+@media (max-width: 1300px) {
+  .banner-a-propos {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 750px) {
+  .banner-a-propos {
+    height: 130px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+}
